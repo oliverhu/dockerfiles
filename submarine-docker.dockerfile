@@ -39,3 +39,5 @@ RUN groupadd -g 5000 hadoop
 RUN useradd -u 1000 -g hadoop pi
 RUN mkdir /home/pi
 RUN chown pi:hadoop /home/pi
+RUN mkdir /tmp/mode
+RUN chmod 777 /tmp/mode
